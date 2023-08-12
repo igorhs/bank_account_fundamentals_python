@@ -12,8 +12,11 @@ This Python program simulates a basic bank account where users can perform the f
 - View an account statement (extrato) showing deposit and withdrawal history;
 - Check the current balance.
 
+Additionally, the program includes the following features:
 
-
+- Create a new user account;
+- Create a new savings account for an existing user;
+- Administrative menu to list registered users and accounts.
 
 ## Usage
 
@@ -42,7 +45,10 @@ python3 main.py
 - Deposit funds with validation for positive amounts;
 - Withdraw funds with checks for available balance and daily withdrawal limit;
 - Account statement showing deposit and withdrawal history;
-- Basic error handling for invalid user inputs.
+- Basic error handling for invalid user inputs;
+- Create a new user account with name, CPF, and address;
+- Create a new savings account linked to an existing user;
+- Administrative menu to list registered users and accounts.
 
 
 ## Installation
